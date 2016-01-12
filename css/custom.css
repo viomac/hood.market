@@ -1,3 +1,47 @@
+
+//MAIN PAGE
+
+.hood-steps {
+    background-color: gray;
+}
+
+.emergency-button {
+    height: 100px;
+}
+
+//Services steps
+
+.steps-title {
+    background-color: #301451;
+}
+
+.steps-container {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.hood-steps-sides {
+    background-color: #241D1D;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #B0AEAE;
+    min-height: 380px;
+}
+
+.hood-steps-center {
+    background-color: #B0AEAE;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #241D1D;
+    min-height: 380px;
+}
+
+.steps-container .col-md-4{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
 .services-container {
     margin-top: 60px;
 }

@@ -31,6 +31,7 @@
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+    <link href="css/navbar-fixed-top.css" rel="stylesheet">
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -141,54 +142,74 @@
         <!-- Three columns of text below the carousel -->
         <div class="row">
             <div class="col-lg-4">
-                <div class="thumbnail">
-                    <img src="img/belleza.png">
-                    <h2>Belleza</h2>
-                    <p>Descripción. Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                    <p><a href="belleza.html" class="btn btn-primary" role="button">Ver más servicios</a></p>
-                </div>
+                <a href="belleza.html">
+                    <div class="thumbnail wrapper">
+                        <div class="transbox">
+                            <img class="img-responsive" src="img/belleza.png">
+                        </div>
+                        <div class="caption wrapper-caption">
+                            <h2>SALUD Y BELLEZA</h2>
+                            <p>Ver más servicios</p>
+                        </div>
+                    </div>
+                </a>
             </div>
             <div class="col-lg-4">
-                <div class="thumbnail">
-                    <img src="img/eventos.jpg">
-                    <h2>Eventos</h2>
-                    <p>Descripción. onec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p>
-                    <p><a href="#" class="btn btn-primary" role="button">Ver más servicios</a></p>
-                </div>
+                <a href="#">
+                    <div class="thumbnail wrapper">
+                        <img src="img/eventos.jpg">
+                        <div class="caption wrapper-caption">
+                            <h2>PROFESORES PARTICULARES</h2>
+                            <p>Ver más servicios</p>
+                        </div>
+                    </div>
+                </a>
             </div>
             <div class="col-lg-4">
-                <div class="thumbnail">
-                    <img src="img/limpieza.jpg">
-                    <h2>Limpieza</h2>
-                    <p>Descripción.Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-                    <p><a href="#" class="btn btn-primary" role="button">Ver más servicios</a></p>
-                </div>
+                <a href="#">
+                    <div class="thumbnail wrapper">
+                        <img src="img/limpieza.jpg">
+                        <div class="caption wrapper-caption">
+                            <h2>ASISTENCIAL <br> SANITARIO</h2>
+                            <p>Ver más servicios</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="row">            
             <div class="col-lg-4">
-                <div class="thumbnail">
-                    <img src="img/lecciones.jpg">
-                    <h2>Lecciones</h2>
-                    <p>Descripción.</p>
-                    <p><a href="#" class="btn btn-primary" role="button">Ver más servicios</a></p>
-                </div>
+                <a href="#">
+                    <div class="thumbnail wrapper">
+                        <img src="img/lecciones.jpg">
+                        <div class="caption wrapper-caption">
+                            <h2>MANTENIMIENTO DEL HOGAR</h2>
+                            <p>Ver más servicios</p>
+                        </div>
+                    </div>
+                </a>
             </div>            
             <div class="col-lg-4">
-                <div class="thumbnail">
-                    <img src="img/profesionales.jpg">
-                    <h2>Profesionales</h2>
-                    <p>Descripción.</p>
-                    <p><a href="#" class="btn btn-primary" role="button">Ver más servicios</a></p>
-                </div>
+                <a href="#">
+                    <div class="thumbnail wrapper">
+                        <img src="img/profesionales.jpg">
+                        <div class="caption wrapper-caption">
+                            <h2>SERVICIO DOMÉSTICO</h2>
+                            <p>Ver más servicios</p>
+                        </div>
+                    </div>
+                </a>
             </div>            
             <div class="col-lg-4">
-                <div class="thumbnail">
-                    <img src="img/reparaciones">
-                    <h2>Reparaciones</h2>
-                    <p>Descripción.</p>
-                    <p><a href="#" class="btn btn-primary" role="button">Ver más servicios</a></p>
-                </div>
+                <a href="#">
+                    <div class="thumbnail wrapper">
+                        <img src="img/reparaciones">
+                        <div class="caption wrapper-caption">
+                            <h2>EVENTOS</h2>
+                            <p>Ver más servicios</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="row">
@@ -198,10 +219,10 @@
         </div>
     
       <!-- Three columns of text below the carousel -->
-        <div class="steps-container">
+        <div id="steps-container">
             <div class="row">            
                 <div class="steps-title">
-                    <h2 class="featurette-heading text-center">¿Cómo funciona?</h2>
+                    <h2 class="featurette-heading text-center" id="steps-title">¿Cómo funciona?</h2>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4">
                     <div class="hood-steps-sides">

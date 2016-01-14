@@ -5,17 +5,36 @@
     background-color: gray;
 }
 
+/////CATEGORIES
+
+.wrapper {
+    position: relative;
+}
+
+.wrapper-caption {
+    z-index: 1;
+    height: inherit;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.wrapper h2,p {
+    color: white;
+}
+
 .emergency-button {
     height: 100px;
 }
 
-//Services steps
+/////SERVICES STEPS
 
 .steps-title {
     background-color: #301451;
 }
 
-.steps-container {
+#steps-container {
     margin-top: 50px;
     margin-bottom: 20px;
 }
@@ -36,7 +55,7 @@
     min-height: 380px;
 }
 
-.steps-container .col-md-4{
+#steps-container .col-md-4{
     padding-right: 0px;
     padding-left: 0px;
 }
@@ -55,11 +74,24 @@
     #entrega, #tarifa {
         margin-bottom: 36px;
     }
+    
+    #steps-container h2 {
+        font-size: 1.7em;
+    }
+    
+    #steps-container #steps-title {
+        font-size: 3.5em;
+    }
 }
 
 @media (max-width: 768px) {
     .hood-benefits img {
         margin-bottom: 35px;
+    }
+    
+    #steps-container p {
+        font-size: 1.55em;
+        font-weight: normal;
     }
 }
 

@@ -1,3 +1,9 @@
 .navbar-fixed-top {
     z-index: 20;
 }
+
+#footer {
+    background-color: #24093C;
+    color: white;
+    padding-top: 15px;
+}

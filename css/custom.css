@@ -20,7 +20,11 @@
     width: 100%;
 }
 
-.wrapper h2,p {
+.wrapper h2 {
+    color: white;
+}
+
+.wrapper p {
     color: white;
 }
 
@@ -94,7 +98,6 @@
         font-weight: normal;
     }
 }
-
 
 //Hood Services
 

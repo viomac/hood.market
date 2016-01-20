@@ -4,11 +4,12 @@ div#services-container {
     margin-top: 80px;
 }
 
-
 #services-container img {
     height: 90px;
 }
 
 #specific-services * .service-card{
-    height: 260px;    
+    height: 260px;
 }
+
+

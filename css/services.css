@@ -8,8 +8,21 @@ div#services-container {
     height: 90px;
 }
 
-#specific-services * .service-card{
-    height: 260px;
+#specific-services * .service-card {
+    height: 280px;
 }
 
+#service-card-modal .service-label, .modal-title, .price-label, .provider-label {
+    font-size: 1.8em;
+    color: #777;
+    font-weight: 400;
+}
+
+#service-card-modal .price-label {
+    font-size: 1em;
+}
+    
+#service-card-modal .provider-label {
+    font-size: 1.4em;
+}
 
